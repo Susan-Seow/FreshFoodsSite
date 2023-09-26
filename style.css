@@ -1,0 +1,120 @@
+html, body, ul, li, header, h1, h2, h3, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+} 
+
+body {
+    margin: 20px;
+    background-color: white; 
+}  
+
+#container {
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   margin-top: 40px;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white; 
+}
+
+#SiteNavBar {
+   padding: 20px;
+   background-image: url(green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+   height: 800px;
+}  
+
+header {
+    width: auto;
+    flex-grow: 1;
+    flex-direction: row;
+    align-self: center;
+}
+
+a {
+   flex-grow: 1;
+   color: white;
+}
+
+#Flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#nav {
+    padding: 20px;
+    display: flex;
+    font-size: 20px ;
+    color: white
+}
+
+h1 {
+    justify-self: center;
+    font-size: 70px;
+}
+
+h2 {
+    color: white;
+    font-display: center;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ 
+ h3 {
+    text-align: end;
+
+ }
+
+ p {
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 14px;
+ }
+
+ li {
+    list-style-type: none;
+    background-color: black;
+    
+ }
+
+.image-wrapper {
+    flex: 1; 
+}
+
+.image-wrapper img {
+    max-width: 100%; 
+}
+
+.text-wrapper {
+    flex: 1; 
+    padding: 20px;
+}
+ 
+.first {
+    margin: 20px;
+    height: 500px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+ }
+ 
+ .second {
+     margin: 20px;
+     height: 500px;
+     width: 250px; 
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+ }
+ 
+ 
+ .third {
+     margin: 20px;
+     height: 500px;
+     width: 250px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+ }
