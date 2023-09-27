@@ -11,26 +11,34 @@ body {
 
 #container {
    display: flex;
-   justify-content: flex-start;
-   flex-direction: column;
-   margin-top: 40px;
+   margin-top: 20px;
    flex-wrap: wrap;
    justify-content: space-around;
    font-family: Arial, Helvetica, sans-serif;
    color: white; 
-}
-
-#SiteNavBar {
+   width: 100%;
    padding: 20px;
    background-image: url(green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
-   height: 800px;
+   height: 750px;
 }  
 
-header {
-    width: auto;
-    flex-grow: 1;
-    flex-direction: row;
+nav {
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+ft-page {
+    justify-content: flex-start;
+    flex-direction: flex-start;
+}
+
+h1 {
+    justify-self: center;
+    font-size: 70px;
+    justify-content: center;
+    align-items: center;
     align-self: center;
+
 }
 
 a {
@@ -46,40 +54,32 @@ a {
     justify-content: space-between;
 }
 
-#nav {
-    padding: 20px;
-    display: flex;
-    font-size: 20px ;
-    color: white
-}
-
-h1 {
-    justify-self: center;
-    font-size: 70px;
-}
-
-h2 {
+h2 {  
     color: white;
+    font-size: 26px;
     font-display: center;
+    align-self: center;
     text-align: center;
     margin-bottom: 20px;
- }
+}
  
- h3 {
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
     text-align: end;
 
- }
+}
 
- p {
-     font-family: 'Courier New', Courier, monospace;
-     font-size: 14px;
- }
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
 
- li {
+li {
     list-style-type: none;
     background-color: black;
     
- }
+}
 
 .image-wrapper {
     flex: 1; 
@@ -95,26 +95,26 @@ h2 {
 }
  
 .first {
-    margin: 20px;
+    margin-top: 20px;
     height: 500px;
-    width: 250px;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
- }
+}
  
- .second {
-     margin: 20px;
-     height: 500px;
-     width: 250px; 
-     font-family: Arial, Helvetica, sans-serif;
-     color: white;
- }
+.second {
+    margin-top: 20px;
+    height: 500px;
+    width: 100%; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
  
  
- .third {
-     margin: 20px;
-     height: 500px;
-     width: 250px;
-     font-family: Arial, Helvetica, sans-serif;
-     color: white;
- }
+.third {
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
